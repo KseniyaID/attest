@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сайт группы</title> 
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+         rel="stylesheet">
+         <script defer src="../js/login-popup.js"></script>
+    </head>
+    <body class="page">
+        <header class="header">
+            <img class="logo" src="../img/logo.svg" alt="Логотип Иннополис">
+            <ul class="menu">
+                <li><a class="main-page" href="../index.html">Главная</a></li>
+                <li><a class="students" href="#">Студенты</a></li>
+                <li><a class="aboutus" href="aboutus.html">О курсе</a></li>
+                <li><a class="contacts" href="contacts.html">Контакты</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form" action="" method="GET">
+                    <input class="login-input" name="login" type="text"
+                    placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password"
+                    placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main class="main main-students">
+            <h1 class="main-heding">Студенты потока 08.02.2020 👧👦</h1>
+            <div class="students-cards">
+                <section class="student-card">
+                    <img src="../img/david.jpg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Дэвид Гилмор</p>
+                </section>
+                <a class="student-card kseniya" href="../urok.html">
+                <section>
+                    <img src="../img/me.jpg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Ксения</p>
+                </section>
+                </a>
+                <section class="student-card">
+                    <img src="../img/roger.jpg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Роджер Уотерс</p>
+                </section>
+                <section class="student-card">
+                    <div class="newbie">
+                    <img src="../img/richard.jpeg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Ричард Райт</p>
+                        <img class="icon" src="../img/new.png" alt="Новичок" width="50" height="50">
+                        </div>
+                </section>
+                <section class="student-card">
+                    <img src="../img/sid.jpeg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Сид Баррет</p>
+                </section>
+                <section class="student-card">
+                        <img src="../img/nick.jpg" alt="Аватар студента" width="220" height="270">
+                    <p class="student-name">Ник Мейсон</p>
+                </section>
+
+            </div>
+        </main>
+            <footer class="footer">
+                <p class="copywrite">2022 &copy;<a class="innop-link" href="https://innopolis.com/">Иннополис</a></p>
+
+            </footer>        
+        </body>
+    
+</html>
